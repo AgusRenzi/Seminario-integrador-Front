@@ -1,0 +1,82 @@
+/* AgroControl — tokens generados desde tokens.json. Tema por defecto: bosque. Cambiá con <html data-theme="claro">. */
+
+:root, [data-theme="bosque"] {
+  --bg: #043c2c;
+  --surface: #326252;
+  --surface-cream: #f1f3e8;
+  --fg: #f1f3e8;
+  --fg-muted: #b9c9bf;
+  --ink: #043c2c;
+  --ink-muted: #5a6b62;
+  --lime: #ccf46c;
+  --lime-strong: #89cc2c;
+  --forest: #326252;
+  --steel: #6687aa;
+  --steel-soft: #93a6c3;
+  --line: #f1f3e8;
+  --line-soft: #1f5443;
+  --line-cream: #d9ddc9;
+  --danger: #e8857a;
+  --focus: #ccf46c;
+  --shadow-float: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+
+[data-theme="claro"] {
+  --bg: #f1f3e8;
+  --surface: #ffffff;
+  --surface-cream: #ffffff;
+  --fg: #043c2c;
+  --fg-muted: #5a6b62;
+  --ink: #043c2c;
+  --ink-muted: #5a6b62;
+  --lime: #ccf46c;
+  --lime-strong: #89cc2c;
+  --forest: #326252;
+  --steel: #6687aa;
+  --steel-soft: #93a6c3;
+  --line: #043c2c;
+  --line-soft: #d9ddc9;
+  --line-cream: #d9ddc9;
+  --danger: #b3261e;
+  --focus: #043c2c;
+  --shadow-float: 0 12px 32px rgba(4, 60, 44, 0.18);
+}
+
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 80px;
+  --radius-sm: 4px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --font-display: Fraunces, Georgia, serif;
+  --font-sans: Figtree, "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+
+.display-xl { font-family: var(--font-display); font-size: 56px; line-height: 1.05; font-weight: 400; letter-spacing: -1px; font-variation-settings: "opsz" 144; }
+
+.display-l { font-family: var(--font-display); font-size: 44px; line-height: 1.05; font-weight: 400; letter-spacing: -0.8px; font-variation-settings: "opsz" 144; }
+
+.display-m { font-family: var(--font-display); font-size: 36px; line-height: 1.1; font-weight: 400; letter-spacing: -0.5px; font-variation-settings: "opsz" 144; }
+
+.display-s { font-family: var(--font-display); font-size: 24px; line-height: 1.2; font-weight: 400; font-variation-settings: "opsz" 144; }
+
+.lead { font-family: var(--font-sans); font-size: 20px; line-height: 1.45; font-weight: 400; }
+
+.body { font-family: var(--font-sans); font-size: 16px; line-height: 1.5; font-weight: 400; }
+
+.label { font-family: var(--font-sans); font-size: 14px; line-height: 1.3; font-weight: 600; }
+
+.small { font-family: var(--font-sans); font-size: 13px; line-height: 1.4; font-weight: 400; }
+
+.eyebrow { font-family: var(--font-mono); font-size: 12px; line-height: 1.3; font-weight: 500; letter-spacing: 1px; }
+
+.figure { font-family: var(--font-mono); font-size: 28px; line-height: 1.1; font-weight: 500; }
+
+.cell-num { font-family: var(--font-mono); font-size: 15px; line-height: 1.4; font-weight: 400; }
